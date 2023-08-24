@@ -1,10 +1,11 @@
 package com.rekrutacja.gitapp;
 
 public class BranchInfo {
-    private String name; 
-    private String lastCommitSha; 
+    private String name;
+    private String lastCommitSha;
 
-    public BranchInfo() {}
+    public BranchInfo() {
+    }
 
     public BranchInfo(String name, String lastCommitSha) {
         this.name = name;
